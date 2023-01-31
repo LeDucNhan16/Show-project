@@ -1,0 +1,100 @@
+
+/* PC VS Tablet  */
+@media only screen and (min-width:46.25em) {
+    .mobile-btn,
+    .mobile-close {
+        display: none !important;
+    }
+    #nav .subnav li:hover a {
+        background-color: #ccc;
+        color: #000;
+    } 
+    #nav {
+        display: none;
+    }
+}
+
+/* Tablet  */
+@media only screen and (min-width:46.25em) and (max-width:63.9375em) {
+    .mobile-btn,
+    .mobile-close {
+        display: none !important;
+    }
+    #nav {
+        display: none;
+    }
+}
+
+/* Mobidle  */
+@media only screen and (max-width:46.1875em) {
+    /* header  */
+    ul.pc__nav {
+        display: none;
+    }
+    #nav {
+        left: -320px;
+        margin-top: 46px;
+        position: absolute;
+        background-color: black;
+        transition: 0.4s;
+        opacity: 0;
+        z-index: 10;
+        width: 305px;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav li a {
+        padding: 0 150px 0 40px;
+        font-size: 20px;
+    }
+    .subnav {
+        background-color: #000;
+        border: none;
+        display: none;
+    }
+    .subnav a {
+        color: #fff;
+        padding: 0 12px 0 60px;
+        line-height: 38px;
+    }
+    .mobile-close {
+        z-index: 3;
+    }
+    .search-btn {
+        display: none;
+    }
+    /* content  */
+    .mobile-col-full {
+        width: 100%;
+    }
+    #content .about {
+        font-size: 18px;
+    }
+    .contact-sub-body {
+        margin-bottom: 24px;
+    }
+    .contact-fold-error {
+        font-size: 21px;
+    }
+    .member-img {
+        width: 219px;
+    }
+    .contact-input {
+        font-size: 15px;
+    }
+    .place-Buy {
+        padding: 17px 33px;
+    }
+    .place-body {
+        font-size: 18px;
+    }
+    .place-list {
+        margin-top: 8px;
+    }
+    .Send-sub-contact {
+        padding: 16px 39px;
+    }
+    
+    
+}

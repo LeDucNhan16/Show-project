@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <!-- begin : header  -->
+        <div id="header">
+            <ul class="pc__nav">
+                <li><a href="#">Home</a></li>
+                <li ><a href="#band">Band</a></li>
+                <li ><a href="#tour">Tour</a></li>
+                <li ><a href="#contact">Contact</a></li>
+                <li ><a href="#ab">More
+                    <i class="ti-angle-down"></i>
+                </a>
+                    <ul class="subnav__pc">
+                        <li><a href="#e">Merchandise</a></li>
+                        <li><a href="#f">Extras</a></li>
+                        <li><a href="#g">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="nav">
+                <li><a class="closeAuto" href="#">Home</a></li>
+                <li><a class="closeAuto" href="#band">Band</a></li>
+                <li><a class="closeAuto" href="#tour">Tour</a></li>
+                <li><a class="closeAuto" href="#contact">Contact</a></li>
+                <li><a onclick="openn()" href="#_">
+                    More <i class="ti-angle-double-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a class="closeAuto" href="#_">Merchandise</a></li>
+                        <li><a class="closeAuto" href="#_">Extras</a></li>
+                        <li><a class="closeAuto" href="#_">Media</a></li>
+                    </ul>
+                </li>
+            </div>
+            <div onclick="on()" class="mobile-btn">
+                <i class="mobile-menu-menu ti-menu"></i>
+            </div>
+            <div onclick="off()" class="mobile-close">
+                <i class="mobile-menu-close ti-close"></i>
+            </div>
+            <div class="search-btn">
+                <i class="tablet-pc-search ti-search"></i>
+            </div>
+            <div onclick="autoclose()" class="overlay"></div>
+        </div>
+        <!-- end : header  -->
+
+        <!-- begin : header  -->
+        <div id="slider">
+            <div class="slider-body">
+                <div class="h4-slider-head">New York</div>
+                <p class="slider-food">The atmosphere in New York is lorem ipsum.</p>
+            </div>
+        </div>
+        <!-- end : header  -->
+
+        <!-- begin : header  -->
+        <div id="content">
+            <!-- Band  -->
+            <div id="band" class="content-list">
+                <h2 class="text-center content-shared">THE BAND</h2>
+                <p class="text-center content-sub-shared">We love music</p>
+                <p class="about">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                <div class="member">
+                    <div class="text-center mobile-col-full col col-third member-body">
+                        <div class="member-name">Name</div>
+                        <img src="./assets/img/member/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="text-center mobile-col-full col col-third member-body">
+                        <div class="member-name">Name</div>
+                        <img src="./assets/img/member/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="text-center mobile-col-full col col-third member-body">
+                        <div class="member-name">Name</div>
+                        <img src="./assets/img/member/bandmember.jpg" alt="Name" class="member-img">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- tour  -->
+            <div id="tour" class="tour">
+                <div class="content-list">
+                    <h2 class="text-center content-shared">TOUR DATES</h2>
+                    <p class="text-center content-sub-shared">Remember to book your tickets!</p>
+
+
+                    <ul class="tour-ticket">
+                        <li class="ticket-sale">September<span class="sold-out">Sold out</span></li>
+                        <li class="ticket-sale">October<span class="sold-out">Sold out</span></li>
+                        <li class="ticket-sale">November<span class="quantity">3</span></li>
+                    </ul>
+
+                    <div class="row places-btn">
+                        <div class="col col-third mobile-col-full place-list">
+                            <img src="./assets/img/place/place1.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-head">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-sub">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+
+                                <button class="place-Buy">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third mobile-col-full place-list">
+                            <img src="./assets/img/place/place2.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-head">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-sub">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+
+                                <button class="place-Buy">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-third mobile-col-full place-list">
+                            <img src="./assets/img/place/place3.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-head">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-sub">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+
+                                <button class="place-Buy">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <!-- contact  -->
+            <div id="contact" class="content-list">
+                <h2 class="text-center content-shared">CONTACT</h2>
+                <p class="text-center content-sub-shared">Fan? Drop a note!</p>
+
+                <div class="contact-body-food">
+                    <div class="col col-half mobile-col-full contact-sub-body">
+                        <p class="contact-fold-error"><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p class="contact-fold-error"><i class="ti-mobile"></i>Phone: <a href="https://www.facebook.com/profile.php?id=100053872140355">+00 151515S</a></p>
+                        <p class="contact-fold-error"><i class="ti-email"></i>Email: <a href="https://www.facebook.com/profile.php?id=100053872140355">mail@mail.com</a></p>
+                    </div>
+                    <div class="col col-half mobile-col-full">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half mobile-col-full">
+                                    <input type="text" name="" placeholder="Name" id="#" class="contact-input">
+                                </div>
+                                <div class="col col-half mobile-col-full">
+                                    <input type="email" name="" placeholder="Email" id="#" class="contact-input">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Massage" id="#" class="contact-input">
+                                </div>
+                            </div>
+                        </form>
+                            <input class="Send-sub-contact" type="submit" value="SEND">
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <!-- map  -->
+            <div id="map-content">
+                <img src="./assets/img/map.jpg" alt="Map" class="map-img-footer-content">
+            </div>
+        </div>
+        <!-- end : header  -->
+
+        <!-- begin : header  -->
+        <div id="footer" class="text-center">
+            <a href="https://www.facebook.com/profile.php?id=100053872140355"><i class="ti-facebook"></i></a>
+            <a href="https://www.google.gg/"><i class="ti-google"></i></a>
+            <a href="https://www.youtube.com/channel/UCp1Nwme_hZe8fbJ1M-iVSRw"><i class="ti-youtube"></i></a>
+            <a href="https://www.instagram.com/nhanle16022/"><i class="ti-instagram"></i></a>
+            <a href="www.pinterest.com"></i></a>
+            <a href="https://innovation.microsoft.com/en-us"><i class="ti-microsoft-alt"></i></a>
+            <div class="footer-end">
+                <p>Powered by <a href="https://www.facebook.com/profile.php?id=100053872140355">NhanLe.com</a></p>
+            </div>
+        </div>
+        <!-- end : header  -->
+
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
